@@ -4,7 +4,7 @@ The python code is developed using the jupyter notebook in Virtual Studio Code
 
 **#Outline**
 
--Importing relevant functions and Libraries for Pyhon and R respectively
+-Importing relevant functions and libraries for Pyhon and R respectively
 -Importing the CSV file
 -Checking dataframe to confirm accuracy of headings
 -Creation of employee detail function
@@ -35,7 +35,7 @@ install.packages("readr")
 6. Installs the first exception for error handling when returning the employee_detail function's results
 7. Tests the function usage with a name from the dataset
 
-#cell 4: Data processing
+#cell 4: Data processing using dictionary
 8. Data cleaning block starts off with ensuring casing of all string variables is consistent (here we keep the first letter of a word capitalized)
 9. Duplicates handlings with the help of the duplicates function
 10.The duplicates are identified depending on two variables that is employee_name and Year.
